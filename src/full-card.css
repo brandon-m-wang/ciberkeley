@@ -1,0 +1,8 @@
+@media (max-width: 760px) {
+    #full-card {
+        box-shadow: none !important;
+        background: initial !important;
+        z-index: 99;
+        padding-top: 5rem !important;
+    }
+}

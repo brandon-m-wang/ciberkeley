@@ -1,0 +1,7 @@
+@media (max-width: 460px) {
+    #card {
+        box-shadow: none !important;
+        background: #181818 !important;
+        z-index: -1;
+    }
+}

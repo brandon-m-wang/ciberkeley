@@ -1,0 +1,14 @@
+.home {background: url("resources/background.jpg");
+/* add filter to darken the
+        background */
+background-blend-mode: multiply;
+background-color: rgba(0,
+    0, 0, 0.6);
+/* shift the background image down */
+background-position: center 60%;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+    height: 100vh;
+    font-family: Lusitana, serif
+}

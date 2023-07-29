@@ -1,0 +1,101 @@
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu.is-open {
+    z-index: 999;
+    position: fixed;
+    background: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    padding-top: 2rem;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.navbar-menu-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+/* Hamburger Menu */
+.menu-button {
+    position: absolute;
+    z-index: 1000;
+    top: 1.75rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.menu-button span,
+.menu-button span::before,
+.menu-button span::after {
+    content: '';
+    background: white;
+    position: absolute;
+    height: 1px;
+    width: 1.25rem;
+}
+
+.menu-button span {
+    transform: translateY(1rem);
+}
+
+.menu-button span::before {
+    transform: translateY(-6px);
+}
+
+.menu-button span::after {
+    transform: translateY(6px);
+}
+
+.menu-button.is-open span {
+    visibility: hidden;
+}
+
+.menu-button.is-open span::before {
+    visibility: visible;
+    transform: translateY(0px) rotate(45deg);
+}
+
+.menu-button.is-open span::after {
+    visibility: visible;
+    transform: translateY(0px) rotate(-45deg);
+}
+
+@media (min-width: 1101px) {
+    .navbar-menu,
+    .navbar-menu.is-open {
+        display: none;
+    }
+
+    .menu-button{
+        display: none;
+    }
+}
+
+#logo {
+    height: 4rem;
+    min-width: 14rem;
+}
+
+@media (min-width: 460px) {
+    #logo {
+        min-width: "fit-content";
+    }
+}
