@@ -1,7 +1,6 @@
 {
   "name": "new_portfolio",
   "version": "0.1.0",
-  "homepage": "https://brandon-m-wang.github.io/cib",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
