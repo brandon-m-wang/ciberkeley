@@ -55,7 +55,7 @@ export const Network = () => {
             <tr>
               <td>Brandon Wang</td>
               <td>Hudson River Trading</td>
-              <td>Algo Engineering</td>
+              <td>Algorithm Engineering</td>
               <td>New York, NY</td>
             </tr>
             <tr>

@@ -13,7 +13,7 @@ const content = [
   "The Fund",
   "Education",
   "Join Us",
-  "Member's Portal",
+  // "Member's Portal",
 ];
 
 function useWindowSize() {
@@ -62,7 +62,7 @@ export const Nav = ({ active }) => {
 
   return (
     <div className="absolute top-0 left-0 margin-auto w-full">
-      <div className="flex justify-between items-center flex-shrink-0 text-white pt-4 pb-3 pl-8 pr-48 font-poppins">
+      <div className="flex justify-between items-center flex-shrink-0 text-white pt-4 pb-3 pl-8 pr-16 font-poppins">
         <Link to="/">
           <img id="logo" src={CIBLogo} alt="CIB" />
         </Link>
@@ -126,7 +126,7 @@ export const Nav = ({ active }) => {
             return (
               <Link to={`/`}>
                 <span
-                  className={`select-none font-extralight text-md ${
+                  className={`pl-64 select-none font-extralight text-md ${
                     active ===
                     item.toLowerCase().replace("'", "").replace(" ", "-")
                       ? "underline"

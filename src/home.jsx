@@ -5,7 +5,8 @@ import Meeting from "./resources/meeting.jpeg";
 import Pier from "./resources/pier.jpg";
 import Analyst from "./resources/analyst.jpeg";
 import Terrace from "./resources/terrace.jpeg";
-import Team from "./resources/team.png";
+// import Team from "./resources/team.png";
+import Team from "./resources/lolberk2.JPG";
 import Dock from "./resources/dock.jpg";
 import { FullCard } from "./full-card";
 import { Footer } from "./footer";
@@ -20,14 +21,17 @@ export const Home = () => {
         <h1 className="select-none text-white semi-lg:text-6xl md:text-5xl sm:text-3xl mini:text-2xl text-base text-center mt-14 border-t-2 border-b-2 pt-2 pb-1">
           CAPITAL INVESTMENTS AT BERKELEY
         </h1>
-        <h1 className="text-white semi-lg:text-2xl sm:text-lg text-sm text-center font-poppins font-extralight pr-8 pl-8 sm:pl-0 sm:pr-0">
-          Berkeley’s only multi-strategy undergraduate investment fund
+        {/* <h1 className="text-white semi-lg:text-2xl sm:text-lg text-sm text-center font-poppins font-extralight pr-8 pl-8 sm:pl-0 sm:pr-0">
+          Berkeley’s premier undergraduate hedge fund.
+        </h1> */}
+        <h1 className="text-white opacity-90 text-3xl text-center">
+          UC Berkeley’s premier undergraduate hedge fund.
         </h1>
-        <h1 className="text-white text-xl text-center">EST. 2012</h1>
+        <br></br>
       </div>
       <div className="bg-black w-full flex md:flex-row flex-col items-start text-white font-poppins font-light">
         <div
-          className="flex text-right md:m-20 md:ml-14 m-0 mt-20 ml-14 md:text-2.5xl text-2xl"
+          className="flex text-right md:m-20 md:ml-14 m-0 mt-20 ml-14 md:text-4xl text-2xl"
           style={{ "flex-basis": "30%" }}
         >
           <h1>Who we are</h1>
@@ -36,12 +40,10 @@ export const Home = () => {
           className="flex sm:m-20 m-14 mb-20 md:mt-20 mt-10 md:text-2.25xl text-base border-l-2 pl-8 md:pr-14 pr-0"
           style={{ "flex-basis": "100%" }}
         >
-          <p className="font-lusitana">
+          <p className="font-lusitana leading-8">
             CIB is UC Berkeley’s only multi-strategy hedge fund across L/S
-            equity, global macro, and quantitative strategies. We are
-            responsible for all aspects of the fund from research to trading. We
-            strive for superior risk-adjusted returns across our investment
-            pillars.
+            equity, global macro, and quantitative strategies. We strive for
+            superior risk-adjusted returns across our investment pillars.
           </p>
         </div>
       </div>
@@ -100,9 +102,9 @@ export const Home = () => {
       </div>
       <div className="w-full relative semi-md:h-section h-section-lite">
         <img
-          className="brightness-50 absolute w-full semi-md:h-section h-section-lite object-cover object-center"
+          className="brightness-45 absolute w-full semi-md:h-section h-section-lite object-cover object-center"
           style={{
-            "-webkit-filter": "brightness(50%)",
+            "-webkit-filter": "brightness(45%)",
           }}
           src={Team}
           alt={"team"}

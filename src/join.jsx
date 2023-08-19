@@ -15,47 +15,42 @@ const timeline = [
   {
     event: "Infosession #1",
     desc: "Come learn about CIB and our investment strategies!",
-    datetime: "Thursday Jan 19, 8 – 9:30 PM",
-    location: "Wheeler 102",
+    datetime: "Tuesday Aug 29, 8 – 10 PM",
+    location: "Wheeler 220",
+  },
+  {
+    event: "Women's X Diversity Night",
+    desc: "Women/minority-only event: open to all candidates who identify as an underrepresented individuals in finance.",
+    datetime: "Thursday Aug 30, 8 – 10 PM",
+    location: "Wheeler 126",
   },
   {
     event: "Infosession #2",
     desc: "Same content as Infosession #1, no need to attend both.",
-    datetime: "Tuesday Jan 24, 8 – 9:30 PM",
-    location: "Wheeler 102",
-  },
-  {
-    event: "Diversity Night",
-    desc: "Minority-only event: open to all candidates who identify as an underrepresented individuals in finance.",
-    datetime: "Thursday Jan 19, 8 – 9:30 PM",
-    location: "Wheeler 120",
-  },
-  {
-    event: "Meet the Women of CIB",
-    desc: "Female-only event: open to all female-identifying candidates",
-    datetime: "Thursday Jan 26, 8 – 9 PM",
-    location: "Wheeler 120",
+    datetime: "Thursday Aug 31, 8 – 10 PM",
+    location: "Wheeler 220",
   },
   {
     event: "Application Deadline",
-    datetime: "Friday Jan 27, 6 PM",
+    datetime: "Friday Sept 1, 6 PM",
   },
   {
     event: "Virtual Office Hours*",
-    datetime: "Saturday Jan 28, 9 – 11 AM\nSunday Jan 29, 3 – 5 PM",
+    datetime: "Friday Sept 2, 9 – 11 AM\nSunday Sept 8, 3 – 5 PM",
     location: "Zoom",
   },
   {
-    event: "First Round Interviews*",
-    datetime: "Monday Jan 30 – Tuesday Jan 31",
+    event: "First Round Interview*",
+    datetime: "Sunday Sept 3",
   },
   {
     event: "Social Round*",
-    datetime: "Tuesday Jan 31, 8 – 9 PM ",
+    datetime: "Wednesday Sept 6, 8 – 10 PM ",
+    location: "TBD",
   },
   {
-    event: "Final Round Interviews*",
-    datetime: "Wednesday Feb 1 – Thursday Feb 2",
+    event: "Final Round Interview*",
+    datetime: "Saturday Sept 9",
   },
 ];
 
@@ -65,13 +60,13 @@ export const Join = () => {
       <Nav active="join-us" />
       <div className="flex flex-col h-header bg-women bg-cover bg-center bg-darken semi-md-lg:bg-center-14 bg-blend-multiply gap-8 justify-center items-center">
         <h1 className="text-white text-6xl text-center mt-14">
-          Spring 2023 Recruitment
+          Fall 2023 Recruitment
         </h1>
       </div>
       <div className="relative flex h-auto flex-col gap-y-16 p-20 bg-black justify-center items-center">
-        <h1 className="text-white text-5xl">Applications</h1>
+        <h1 className="text-white text-5xl">Applications (Open Soon)</h1>
         <div className="relative flex sm:flex-row flex-col gap-x-8">
-          <a
+          {/* <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdmkR3lC0JhDCGNATlPz8g41px394RU0q3Vfj-3If0kcsZ_AA/viewform?usp=send_form"
             target="_blank"
             rel="noreferrer"
@@ -79,14 +74,14 @@ export const Join = () => {
             <button className="bg-white text-black font-poppins text-sm mt-4 w-56 px-9 py-6 hover:bg-gray-200">
               Fundamental Analyst
             </button>
-          </a>
+          </a> */}
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd6kWVwvJe1sRguqdjA2Ux8nZY56tOlYKPNBBAz6w-NnFujqg/closedform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdRa3slXw58HyWpz3z_UbjpnyTzVKatKYkSlx9N0zwWWsb6vg/viewform"
             target="_blank"
             rel="noreferrer"
           >
             <button className="bg-white text-black font-poppins text-sm mt-4 w-56 px-9 py-6 hover:bg-gray-200">
-              Quantitative Analyst
+              Fall 2023 Interest Form
             </button>
           </a>
         </div>

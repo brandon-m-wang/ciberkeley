@@ -18,15 +18,13 @@ export const About = () => {
           <div className="flex flex-col items-start text-white">
             <h1 className=" text-5xl text-center mb-8">History</h1>
             <p className="font-poppins font-extralight semi-lg:text-base text-sm">
-              Capital Investments at Berkeley was established in 2012 with a
-              mission to explore all aspects of the public markets. Since its
-              inception, CIB has been driven by a passion for investment and a
-              commitment to excellence.
+              For more than a decade, Capital Investments at Berkeley has been
+              driven by a passion for the public markets and a commitment to
+              excellence.
               <br></br>
-              <br></br>As a dynamic and innovative organization, CIB takes pride
-              in its creative approach to investing, which leverages data-driven
-              insights to gain a real-time edge across multiple asset classes
-              and investment strategies.
+              <br></br>We take pride in our creative approach to investing,
+              which leverages data-driven insights to gain a real-time edge
+              across multiple asset classes and investment strategies.
               <br></br>
               <br></br>In the face of a rapidly evolving market environment, CIB
               has developed a reputation for being at the forefront of
@@ -35,7 +33,7 @@ export const About = () => {
           </div>
           <img
             src={Terrace}
-            className="max-h-80 semi-md-lg:m-0 m-16"
+            className="max-h-80 w-full object-cover semi-md-lg:m-0 m-16"
             alt="history"
           />
         </div>
@@ -55,13 +53,12 @@ export const About = () => {
               <br></br>
               <br></br>CIB is a fast-paced environment, where members are
               learning, teaching, and working together to become better
-              professional investors. Above all we are a family, brought
-              together by finance, sticking together because of community.
+              professional investors.
             </p>
           </div>
           <img
             src={Culture}
-            className="max-h-80 semi-md-lg:m-0 m-16"
+            className="max-h-80 w-full object-cover semi-md-lg:m-0 m-16"
             alt="history"
           />
         </div>
@@ -88,7 +85,7 @@ export const About = () => {
           </div>
           <img
             src={Philosophy}
-            className="max-h-80 semi-md-lg:m-0 m-16"
+            className="max-h-80 w-full object-cover semi-md-lg:m-0 m-16"
             alt="history"
           />
         </div>

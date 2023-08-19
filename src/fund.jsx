@@ -48,7 +48,7 @@ export const Fund = () => {
   return (
     <div className="w-full">
       <Nav active="the-fund" />
-      <div className="flex flex-col h-header bg-analyst bg-center semi-md-lg:bg-center-45 bg-cover bg-darken bg-blend-multiply gap-8 justify-center items-center">
+      <div className="flex flex-col h-header bg-analyst bg-center semi-md-lg:bg-center-45 bg-cover bg-darken-slightly bg-blend-multiply gap-8 justify-center items-center">
         <h1 className="text-white text-6xl text-center mt-14 ">
           CIB Multi-Strategy Fund
         </h1>
@@ -69,7 +69,7 @@ export const Fund = () => {
             "Portfolio Teams develop and deliver fundamentally driven investment pitches across equities, fixed income, commodities, currencies, and derivatives. "
           }
           pTextTwo={
-            "Fundamental teams are led by a portfolio manager, focusing on a specific industry, strategy, or asset class for the semester. PMs are subject matter experts in their area of focus, leading analysts in conducting rigorous research to create actionable investment ideas throughout the semester. \n\nFundamental teams take a bottom-up approach to investing. Analysts research a universe of assets/companies chosen by their PM. They understand industry dynamics, market-moving factors and conduct strategy-specific research - pushing out multiple pitches throughout the semester. "
+            "Led by portfolio managers, fundamental teams focus on specific industries, strategies, or asset classes for the semester. Analysts conduct rigorous research to generate actionable investment ideas, using a bottom-up approach and presenting multiple pitches."
           }
           rev={false}
         />
@@ -90,7 +90,7 @@ export const Fund = () => {
             "The Quantitative Trading division builds implementable systematic trading strategies through a combination of modeling and portfolio optimization."
           }
           pTextTwo={
-            "Quantitative analysts work in teams of three under a project manager responsible for supporting and guiding their efforts. Throughout the project, analysts are encouraged to apply their quantitative skills to real-world problems, using statistical models to generate market insights. \n\n We provide analysts with a strong foundation in key concepts that are essential to success in quantitative finance. These concepts include financial modeling, risk management, portfolio optimization, and derivative pricing, varying from project to project."
+            "Quantitative analysts work in teams with a project manager guiding their efforts. They apply statistical models to real-world problems for market insights and receive a strong foundation in key concepts essential for success in quantitative finance, tailored to each project."
           }
           rev={true}
         />
@@ -111,7 +111,7 @@ export const Fund = () => {
             "CIB Labs is our in-house alternative data economic research division. Labs provides data-driven insights for portfolio teams and broad market research for the club."
           }
           pTextTwo={
-            "CIB Labs is the in-house alternative data research division in CIB which sits in between the Fundamental and Quantitative divisions. Projects are born out of the desire to answer a question about an investment thesis or the broader markets. Then, we leverage data science to triangulate an answer to the investment question.\n\nOne of the key advantages of CIB Labs is its ability to mobilize alternative data sources. This includes everything from weather & climate data to satellite imagery analysis. By incorporating a wide range of data sources into its models, we are able to generate unique insights into the market that are not available through traditional sources."
+            "CIB Labs, within CIB, bridges the gap between the Fundamental and Quantitative divisions. It uses data science to answer investment and market questions, leveraging diverse alternative data sources such as weather data and satellite imagery. This enables unique insights not accessible through traditional sources."
           }
           rev={false}
         />

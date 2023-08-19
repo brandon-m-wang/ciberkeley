@@ -67,18 +67,24 @@ export const InvertibleCard = ({ bg, hText, pText, pTextTwo, rev }) => {
       ></div>
       <div style={styles} id="invertible-card">
         <div
-          className={`flex items-center text-center semi-md-lg:text-start ${
+          className={`flex items-center semi-md-lg:${
+            rev ? "text-right" : "text-left"
+          } text-center semi-md-lg:text-start ${
             rev ? "semi-md-lg:flex-row-reverse" : "semi-md-lg:flex-row"
           } flex-col semi-md-lg:h-48 w-full justify-between gap-x-72 gap-y-8`}
         >
           <h1
-            className={`${rev ? "" : "semi-md-lg:ml-14"} text-5xl`}
+            className={`${
+              rev ? "semi-md-lg:mr-14" : "semi-md-lg:ml-14"
+            } text-5xl`}
             style={{ "flex-basis": "35%" }}
           >
             {hText}
           </h1>
           <div
-            className="flex flex-col semi-md-lg:items-end items-center semi-md-lg:w-1/2 w-full"
+            className={`flex flex-col semi-md-lg:items-end items-center semi-md-lg:${
+              rev ? "text-left" : "text-right"
+            } semi-md-lg:w-1/2 w-full`}
             style={{ "flex-basis": "60%" }}
           >
             <p
@@ -86,7 +92,7 @@ export const InvertibleCard = ({ bg, hText, pText, pTextTwo, rev }) => {
                 rev ? "semi-md-lg:ml-14" : ""
               } font-poppins font-extralight semi-md-lg:mr-16 w-3/4`}
             >
-              {pText}
+              <i>{pText}</i>
             </p>
           </div>
         </div>
@@ -95,7 +101,7 @@ export const InvertibleCard = ({ bg, hText, pText, pTextTwo, rev }) => {
             rev
               ? "right-0 semi-md-lg:mr-20 semi-md-lg:text-right"
               : "semi-md-lg:ml-20"
-          } top-1/2 semi-md-lg:absolute semi-md-lg:mt-24 mt-8 mb-8 semi-md-lg:mb-0 font-poppins font-extralight semi-md-lg:w-2/3 p-8 text-sm whitespace-pre-line`}
+          } top-1/2 semi-md-lg:absolute semi-md-lg:mt-24 mt-8 mb-8 semi-md-lg:mb-0 font-poppins font-extralight semi-md-lg:w-1/2 p-8 text-base whitespace-pre-line`}
         >
           {pTextTwo}
         </p>
