@@ -21,7 +21,7 @@ const timeline = [
   {
     event: "Women's X Diversity Night",
     desc: "Women/minority-only event: open to all candidates who identify as an underrepresented individuals in finance.",
-    datetime: "Thursday Aug 30, 8 – 10 PM",
+    datetime: "Wednesday Aug 30, 8 – 10 PM",
     location: "Wheeler 126",
   },
   {
