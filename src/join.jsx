@@ -13,44 +13,50 @@ import { Link } from "react-router-dom";
 
 const timeline = [
   {
+    event: "Tabling on Sproul & Coffee Chats",
+    desc: "Stop by our tent on Sproul or coffee chat leadership (on this page or under Leadership). Candidates should only do at most 2 coffee chats.",
+    datetime: "Tuesday Jan 16 - Wednesday Jan 24",
+    location: "Sproul Plaza",
+  },
+  {
     event: "Infosession #1",
-    desc: "Come learn about CIB and our investment strategies!",
-    datetime: "Tuesday Aug 29, 8 – 10 PM",
-    location: "Wheeler 220",
+    desc: "Meet the members, and learn about CIB and our investment strategies.",
+    datetime: "Thursday Jan 18, 8 – 10 PM",
+    location: "Wheeler 204",
   },
   {
     event: "Women's X Diversity Night",
-    desc: "Women/minority-only event: open to all candidates who identify as an underrepresented individuals in finance.",
-    datetime: "Wednesday Aug 30, 8 – 10 PM",
-    location: "Wheeler 126",
+    desc: "Women/minority-only event: open to all candidates who identify as an underrepresented individual in finance.",
+    datetime: "Monday Jan 22, 8 – 10 PM",
+    location: "SOCS 136",
   },
   {
     event: "Infosession #2",
     desc: "Same content as Infosession #1, no need to attend both.",
-    datetime: "Thursday Aug 31, 8 – 10 PM",
-    location: "Wheeler 220",
+    datetime: "Tuesday Jan 23, 8 – 10 PM",
+    location: "SOCS 136",
   },
   {
     event: "Application Deadline",
-    datetime: "Friday Sept 1, 6 PM",
+    datetime: "Wednesday Jan 24, 11:59 PM",
   },
   {
     event: "Virtual Office Hours*",
-    datetime: "Friday Sept 2, 9 – 11 AM\nSunday Sept 8, 3 – 5 PM",
+    datetime: "TBD",
     location: "Zoom",
   },
   {
     event: "First Round Interview*",
-    datetime: "Sunday Sept 3",
+    datetime: "TBD",
   },
   {
     event: "Social Round*",
-    datetime: "Wednesday Sept 6, 8 – 10 PM ",
+    datetime: "TBD",
     location: "TBD",
   },
   {
     event: "Final Round Interview*",
-    datetime: "Saturday Sept 9",
+    datetime: "TBD",
   },
 ];
 
@@ -60,28 +66,28 @@ export const Join = () => {
       <Nav active="join-us" />
       <div className="flex flex-col h-header bg-women bg-cover bg-center bg-darken semi-md-lg:bg-center-14 bg-blend-multiply gap-8 justify-center items-center">
         <h1 className="text-white text-6xl text-center mt-14">
-          Fall 2023 Recruitment
+          Spring 2024 Recruitment
         </h1>
       </div>
       <div className="relative flex h-auto flex-col gap-y-16 p-20 bg-black justify-center items-center">
-        <h1 className="text-white text-5xl">Applications (Open Soon)</h1>
+        <h1 className="text-white text-5xl">Applications</h1>
         <div className="relative flex sm:flex-row flex-col gap-x-8">
-          {/* <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdmkR3lC0JhDCGNATlPz8g41px394RU0q3Vfj-3If0kcsZ_AA/viewform?usp=send_form"
+          <a
+            href="https://forms.gle/h8pv7GggeHy9kdVv8"
             target="_blank"
             rel="noreferrer"
           >
             <button className="bg-white text-black font-poppins text-sm mt-4 w-56 px-9 py-6 hover:bg-gray-200">
               Fundamental Analyst
             </button>
-          </a> */}
+          </a>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdRa3slXw58HyWpz3z_UbjpnyTzVKatKYkSlx9N0zwWWsb6vg/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeRPTe9jKBs5ZRsdz_X4uFUDmSvwVwKeQzy5wcfkpOPgtf6bw/viewform?fbzx=5094879443662483448"
             target="_blank"
             rel="noreferrer"
           >
             <button className="bg-white text-black font-poppins text-sm mt-4 w-56 px-9 py-6 hover:bg-gray-200">
-              Fall 2023 Interest Form
+              Quantitative Analyst
             </button>
           </a>
         </div>
@@ -90,6 +96,13 @@ export const Join = () => {
             Note: Interview process may vary depending on the role you apply
             for. Should you interview, your interview will reflect the level of
             experience you apply with.
+            <br></br>
+            <br></br>
+            <span className="text-sm">
+              Feel free to apply to both analyst roles if you feel inclined to.
+              You will only be eligible to interview for one of either
+              fundamental or quant based on the contents of your application.
+            </span>
           </i>
         </p>
       </div>
@@ -97,8 +110,8 @@ export const Join = () => {
         <h1 className="text-white text-5xl">Timeline</h1>
         <div className="relative flex flex-col h-auto justify-center items-center md:w-1/3 sm:w-1/2 w-full">
           <vl
-            className="w-full absolute top-1 h-full border-l-2 border-white"
-            style={{ left: "6px" }}
+            className="w-full absolute top-1 border-l-2 border-white"
+            style={{ left: "6px", height: "calc(100% - 9rem)" }}
           ></vl>
           {timeline.map((item, index) => {
             return (
@@ -141,6 +154,17 @@ export const Join = () => {
           </i>
         </p>
       </div>
+      {/* <h1 className="bg-black text-white text-5xl text-center">Coffee Chats</h1>
+      <div className="bg-black flex justify-center p-20">
+        <iframe
+          className="airtable-embed"
+          src="https://airtable.com/embed/apphTQr47Y9NnPELR/shrk53dpFGsDKsSaS?backgroundColor=orangeDusty&viewControls=on"
+          frameborder="0"
+          onmousewheel=""
+          width="100%"
+          height="750"
+        ></iframe>
+      </div> */}
       <Footer />
     </div>
   );

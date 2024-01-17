@@ -31,7 +31,7 @@ export const Footer = () => {
           <FaLinkedin />
         </a>
       </div>
-      <p>ciberkeley@gmail.com</p>
+      <p>cibberkeley@gmail.com</p>
     </div>
   );
 };

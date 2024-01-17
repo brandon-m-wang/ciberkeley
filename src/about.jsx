@@ -2,6 +2,7 @@ import History from "./resources/history.JPG";
 import Terrace from "./resources/terrace.jpeg";
 import Dock from "./resources/dock.jpg";
 import Culture from "./resources/culture.jpeg";
+import Boat from "./resources/boat.JPG";
 import Philosophy from "./resources/pier.jpg";
 import { Footer } from "./footer";
 import { Nav } from "./nav";
@@ -11,7 +12,9 @@ export const About = () => {
     <div className="w-full">
       <Nav active="about" />
       <div className="flex flex-col h-header bg-teamTwo bg-cover bg-darken bg-center bg-blend-multiply gap-8 justify-center items-center">
-        <h1 className="text-white text-6xl text-center mt-14">About CIB</h1>
+        <h1 className="text-white text-6xl text-center mt-14">
+          The CIB Community
+        </h1>
       </div>
       <div className="semi-md-lg:h-mini-section h-auto bg-black">
         <div className="ml-14 mr-14 pt-20 flex semi-md-lg:flex-row flex-col items-center gap-x-40">
@@ -86,6 +89,30 @@ export const About = () => {
           <img
             src={Philosophy}
             className="max-h-80 w-full object-cover semi-md-lg:m-0 m-16"
+            alt="history"
+          />
+        </div>
+      </div>
+      <div
+        className="semi-md-lg:h-mini-section h-auto bg-black"
+        style={{ backgroundColor: "#181818" }}
+      >
+        <div className="ml-14 mr-14 pt-20 flex semi-md-lg:flex-row-reverse flex-col items-center gap-x-40">
+          <div className="flex flex-col items-start text-white">
+            <h1 className=" text-5xl text-center mb-8">Experience</h1>
+            <p className="font-poppins font-extralight semi-lg:text-base text-sm">
+              Dive into a vibrant experience by taking part in retreats,
+              banquets, yacht outings, theme nights, and a myriad of other
+              memorable events.
+              <br></br>
+              <br></br>
+              As you immerse yourself in the CIB community, you'll make
+              meaningful connections that last beyond your years at Berkeley.
+            </p>
+          </div>
+          <img
+            src={Boat}
+            className="max-h-80 w-1/2 object-cover object-center semi-md-lg:m-0 m-16"
             alt="history"
           />
         </div>

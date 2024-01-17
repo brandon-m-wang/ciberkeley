@@ -75,7 +75,7 @@ export const InvertibleCard = ({ bg, hText, pText, pTextTwo, rev }) => {
         >
           <h1
             className={`${
-              rev ? "semi-md-lg:mr-14" : "semi-md-lg:ml-14"
+              rev ? "semi-md-lg:mr-14 text-right" : "semi-md-lg:ml-14 text-left"
             } text-5xl`}
             style={{ "flex-basis": "35%" }}
           >

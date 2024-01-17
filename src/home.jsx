@@ -79,12 +79,11 @@ export const Home = () => {
           style={{ flexBasis: "33%" }}
           className="flex flex-col items-start justify-center text-white"
         >
-          <h1 className="md:text-4xl text-3xl pb-6">Placements at Top Firms</h1>
+          <h1 className="md:text-4xl text-3xl pb-6">Placements at Top Funds</h1>
           <p className="font-poppins font-extralight semi-lg:text-base text-sm">
-            Our members place in all divisions of finance including L/S
-            equities, investment banking, quantitative finance, and more. Year
-            after year, CIB accounts for a significant proportion of placements
-            out of Berkeley at top funds and investment banks.
+            CIB prepares its members in all pillars of finance. Our members
+            excel at top firms and funds in investment banking, quantitative
+            finance, private equity, consulting, and L/S equities.
           </p>
         </div>
         <div
@@ -110,7 +109,7 @@ export const Home = () => {
           alt={"team"}
         />
         <FullCard
-          bg={"#484848"}
+          bg={"#181818"}
           hText={"Investment Arms"}
           subHText={[
             "Fundamental Investment",
